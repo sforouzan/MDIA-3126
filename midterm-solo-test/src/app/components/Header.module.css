@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerContainer h1 {
+  font-size: 6em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 95%;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  /* Make heading font size smaller */
+  .headerContainer h1 {
+    font-size: 5em;
+  }
+}
+
+.button {
+  background-color: rgb(204, 151, 192);
+  color: black;
+  padding: 5px 15px;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+.button:hover {
+ background-color: rgb(169, 120, 158);
+}
